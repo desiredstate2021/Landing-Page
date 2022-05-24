@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/images/sunset.jpg);
+    background-size: cover;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(32, 31, 31);
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a:hover {
+    background-color: rgb(197, 132, 47);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.title {
+    font-family: 'Smooch', cursive;
+    font-size: 65px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
