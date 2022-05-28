@@ -4,8 +4,13 @@
     box-sizing: border-box;
 }
 
-body {
-    background-image: url(/images/sunset.jpg);
+body,
+html {
+    background-image: url("/images/sunset.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -14,7 +19,7 @@ body {
     justify-content: space-around;
     background-color: rgb(32, 31, 31);
     font-size: large;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
 }
 
 a:hover {
@@ -29,7 +34,7 @@ a:hover {
 }
 
 .title {
-    font-family: 'Smooch', cursive;
+    font-family: "Smooch", cursive;
     font-size: 65px;
 }
 
@@ -41,4 +46,49 @@ a:hover {
     background-color: red;
     color: white;
     text-align: center;
+}
+
+.paragraph {}
+
+.wrapper {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 2px;
+}
+
+.section {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 0 0 5px #000;
+    background-size: cover;
+}
+
+.parallax::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateZ(-1px) scale(1.5);
+    background-size: 100%;
+    z-index: -1;
+}
+
+.static {
+    background-image: url("/images/IMG_20220512_110007.jpg");
+}
+
+
+/* .bg1::after {
+    background-image: url("/images/IMG_20220507_152249.jpg");
+} */
+
+.bg2::after {
+    background-image: url("/images/IMG_20220512_125548.jpg");
 }
