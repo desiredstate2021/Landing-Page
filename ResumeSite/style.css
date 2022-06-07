@@ -1,0 +1,305 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("images/starbgbig.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+
+.top {
+    background-color: rgb(70, 70, 95);
+    margin-right: auto;
+    margin-left: auto;
+    width: 1010px;
+    height: 100px;
+}
+
+.main {
+    background-color: rgb(192, 179, 179);
+    margin-left: auto;
+    margin-right: auto;
+    width: 1010px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 315px 200px auto;
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+    width: 1010px;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.grid-item-2 {
+    font-family: 'Fira Mono';
+    align-self: end;
+}
+
+.grid-item-3 {
+    font-family: 'Fira Mono';
+    align-self: center;
+    grid-column: 2;
+}
+
+.grid-item-4 {
+    font-family: 'Fira Mono';
+    align-self: center;
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.grid-item-5 {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.flex-container-1 {
+    padding-left: 118px;
+    padding-top: 15px;
+    grid-row-start: 1;
+    width: fit-content;
+}
+
+.flex-container-1-item-1 {
+    font-family: 'Fira Mono';
+    border-bottom: solid 2px rgb(1, 12, 12);
+    text-align: center;
+    width: 300px;
+}
+
+.flex-container-1-item-2 {
+    text-align: center;
+    width: 300px;
+}
+
+.flex-container-2 {
+    padding-left: 118px;
+    grid-column-start: 1;
+}
+
+.flex-container-2-item-1 {
+    align-self: center;
+    width: 300px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.flex-container-3 {
+    padding-left: 118px;
+    grid-column-start: 1;
+}
+
+.flex-container-3-item-1 {
+    align-self: center;
+    width: 300px;
+    text-align: center;
+}
+
+.flex-container-4-item-1 {
+    border-bottom: solid 2px rgb(1, 12, 12);
+}
+
+.flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 175px 1fr;
+    gap: 1.5rem;
+    justify-content: flex-start;
+}
+
+.soft-skills {
+    font-family: 'Fira Mono';
+    border-bottom: solid 2px rgb(1, 12, 12);
+}
+
+.skills {
+    font-family: 'Fira Mono';
+    border-bottom: solid 2px rgb(1, 12, 12);
+}
+
+.skill-list li {
+    list-style: none;
+}
+
+.aside {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    width: fit-content;
+}
+
+.icons {
+    display: grid;
+    grid-template-columns: repeat(10, 60px);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+}
+
+.icons-1 {
+    grid-column-start: 3;
+    grid-row-start: 2;
+    justify-self: end;
+}
+
+.icons-9 {
+    grid-column: 4;
+    grid-row: 2;
+    justify-self: center;
+}
+
+.icons-10 {
+    grid-column: 5;
+    grid-row: 2;
+    justify-self: center;
+}
+
+.icons-3 {
+    grid-column: 6;
+    grid-row: 2;
+    justify-self: center;
+}
+
+.icons-4 {
+    grid-column: 7;
+    grid-row: 2;
+    justify-self: center;
+}
+
+.icons-5 {
+    grid-column: 7;
+    grid-row: 1;
+    justify-self: end;
+}
+
+.icons-6 {
+    grid-column: 6;
+    grid-row: 1;
+    justify-self: end;
+}
+
+.icons-8 {
+    grid-column: 5;
+    grid-row: 1;
+    justify-self: center;
+}
+
+.icons-2 {
+    grid-column: 4;
+    grid-row: 1;
+    justify-self: start;
+}
+
+.icons-7 {
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: start;
+}
+
+.work {
+    font-family: 'Fira Mono';
+    border-bottom: solid 2px rgb(1, 12, 12);
+    padding-top: 15px;
+    text-align: center;
+}
+
+.education {
+    font-family: 'Fira Mono';
+    padding-top: 2px;
+    border-bottom: solid 2px rgb(1, 12, 12);
+    text-align: center;
+}
+
+.aside,
+p {
+    text-align: center;
+}
+
+.skills-ul {
+    text-align: center;
+    list-style: none;
+}
+
+.soft-skills-ul {
+    list-style: none;
+}
+
+.address {
+    list-style-image: url("icons/icons8-address-color-16.png");
+}
+
+.email {
+    list-style-image: url("icons/icons8-gmail-color-16.png");
+}
+
+.tele {
+    list-style-image: url("icons/icons8-call-16.png");
+}
+
+.github {
+    list-style-image: url("icons/icons8-github-16.png");
+}
+
+.list-5 {
+    padding-bottom: 6px;
+}
+
+.javascript {
+    list-style-image: url("icons/icons8-javascript-16.png");
+}
+
+.react {
+    list-style-image: url("icons/icons8-react-native-16.png");
+}
+
+.html {
+    list-style-image: url("icons/icons8-html-5-16.png");
+}
+
+.css {
+    list-style-image: url("icons/icons8-css3-16.png");
+}
+
+.nodejs {
+    list-style-image: url("icons/icons8-nodejs-16.png");
+}
+
+.sql {
+    list-style-image: url("icons/icons8-sql-16.png");
+}
+
+.uxui {
+    list-style-image: url("icons/icons8-ui-design-16.png");
+}
+
+.seo {
+    list-style-image: url("icons/icons8-search-engine-optimization-16.png");
+}
+
+.scrum {
+    list-style-image: url("icons/icons8-scrum-16.png");
+}
+
+.msproject {
+    list-style-image: url("icons/icons8-microsoft-project-16.png");
+}
+
+.bottom {
+    background-color: rgb(70, 70, 95);
+    margin-right: auto;
+    margin-left: auto;
+    width: 1010px;
+    height: 100px;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
