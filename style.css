@@ -6,7 +6,8 @@
 
 body,
 html {
-    background-image: url("/images/sunset.jpg");
+    /* background-image: url("/images/sunset.jpg"); */
+    background-color: black;
     height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -19,10 +20,12 @@ html {
     display: flex;
     justify-content: space-around;
     padding-top: 15px;
+    background-color: lightslategray;
 }
 
 .name {
     justify-content: flex-start;
+    color: white;
 }
 
 .flex-container-1 {
@@ -41,6 +44,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     height: 500px;
+    color: white;
 }
 
 .title {
@@ -55,7 +59,26 @@ a:hover {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: red;
+    background-color: lightslategray;
     color: white;
     text-align: center;
+}
+
+.info {}
+
+.bio {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: black;
+    gap: 10px;
+}
+
+.bio-2 {
+    text-align: center;
+    align-self: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: white;
 }
