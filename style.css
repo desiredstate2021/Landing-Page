@@ -6,8 +6,8 @@
 
 body,
 html {
-    /* background-image: url("/images/sunset.jpg"); */
-    background-color: black;
+    background-image: url("/images/abstract-1779612.png");
+    /* background-color: black; */
     height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -20,7 +20,7 @@ html {
     display: flex;
     justify-content: space-around;
     padding-top: 15px;
-    background-color: lightslategray;
+    background-color: transparent;
 }
 
 .name {
@@ -71,7 +71,7 @@ a:hover {
     margin-right: 15vw;
     display: flex;
     flex-direction: row-reverse;
-    background-color: black;
+    background-color: transparent;
     gap: 10px;
 }
 
@@ -81,4 +81,93 @@ a:hover {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
     color: white;
+}
+
+.skills {}
+
+.skills-ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    color: white;
+}
+
+.skills-heading {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-bottom: 15px;
+}
+
+.skill-1 {
+    border-style: solid;
+    border-color: rgb(30, 27, 192);
+    border-radius: 25px;
+    background-color: rgb(30, 27, 192);
+}
+
+.skill-2 {
+    border-style: solid;
+    border-color: rgb(226, 178, 18);
+    border-radius: 25px;
+    background-color: rgb(226, 178, 18);
+}
+
+.skill-3 {
+    border-style: solid;
+    border-color: rgb(40, 127, 63);
+    border-radius: 25px;
+    background-color: rgb(40, 127, 63);
+}
+
+.skill-4 {
+    border-style: solid;
+    border-color: rgb(8, 137, 142);
+    border-radius: 25px;
+    background-color: rgb(8, 137, 142);
+}
+
+.skill-5 {
+    border-style: solid;
+    border-color: rgb(35, 15, 151);
+    border-radius: 25px;
+    background-color: rgb(35, 15, 151);
+}
+
+.skill-6 {
+    border-style: solid;
+    border-color: rgb(176, 203, 42);
+    border-radius: 25px;
+    background-color: rgb(176, 203, 42);
+}
+
+.skill-7 {
+    border-style: solid;
+    border-color: rgb(213, 144, 32);
+    border-radius: 25px;
+    background-color: rgb(213, 144, 32);
+}
+
+.skill-8 {
+    border-style: solid;
+    border-color: rgb(225, 119, 27);
+    border-radius: 25px;
+    background-color: rgb(225, 119, 27);
+}
+
+.skill-9 {
+    border-style: solid;
+    border-color: rgb(17, 209, 59);
+    border-radius: 25px;
+    background-color: rgb(17, 209, 59);
+}
+
+.skill-10 {
+    border-style: solid;
+    border-color: rgb(49, 42, 180);
+    border-radius: 25px;
+    background-color: rgb(49, 42, 180);
 }
