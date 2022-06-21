@@ -1,0 +1,26 @@
+{
+    "name": "landing-page",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/desiredstate2021/Landing-Page.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/desiredstate2021/Landing-Page/issues"
+    },
+    "homepage": "https://github.com/desiredstate2021/Landing-Page#readme",
+    "dependencies": {
+        "body-parser": "^1.20.0",
+        "express": "^4.18.1",
+        "https": "^1.0.0",
+        "nodemon": "^2.0.16"
+    }
+}
