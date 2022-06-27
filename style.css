@@ -6,6 +6,7 @@
 
 body,
 html {
+    overflow: scroll;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-image: linear-gradient(12deg, rgba(193, 193, 193, 0.05) 0%, rgba(193, 193, 193, 0.05) 2%, rgba(129, 129, 129, 0.05) 2%, rgba(129, 129, 129, 0.05) 27%, rgba(185, 185, 185, 0.05) 27%, rgba(185, 185, 185, 0.05) 66%, rgba(83, 83, 83, 0.05) 66%, rgba(83, 83, 83, 0.05) 100%), linear-gradient(321deg, rgba(240, 240, 240, 0.05) 0%, rgba(240, 240, 240, 0.05) 13%, rgba(231, 231, 231, 0.05) 13%, rgba(231, 231, 231, 0.05) 34%, rgba(139, 139, 139, 0.05) 34%, rgba(139, 139, 139, 0.05) 71%, rgba(112, 112, 112, 0.05) 71%, rgba(112, 112, 112, 0.05) 100%), linear-gradient(236deg, rgba(189, 189, 189, 0.05) 0%, rgba(189, 189, 189, 0.05) 47%, rgba(138, 138, 138, 0.05) 47%, rgba(138, 138, 138, 0.05) 58%, rgba(108, 108, 108, 0.05) 58%, rgba(108, 108, 108, 0.05) 85%, rgba(143, 143, 143, 0.05) 85%, rgba(143, 143, 143, 0.05) 100%), linear-gradient(96deg, rgba(53, 53, 53, 0.05) 0%, rgba(53, 53, 53, 0.05) 53%, rgba(44, 44, 44, 0.05) 53%, rgba(44, 44, 44, 0.05) 82%, rgba(77, 77, 77, 0.05) 82%, rgba(77, 77, 77, 0.05) 98%, rgba(8, 8, 8, 0.05) 98%, rgba(8, 8, 8, 0.05) 100%), linear-gradient(334deg, hsl(247, 0%, 2%), hsl(247, 0%, 2%));
@@ -16,7 +17,7 @@ html {
 .nav {
     display: flex;
     justify-content: space-around;
-    padding-top: 15px;
+    padding-top: 0.938rem;
     background-color: transparent;
 }
 
@@ -36,7 +37,7 @@ html {
     display: flex;
     -moz-box-align: center;
     align-items: center;
-    gap: 10px;
+    gap: 0.625rem;
 }
 
 a:hover {
@@ -45,16 +46,12 @@ a:hover {
 
 .title {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 500px;
     color: white;
-}
-
-.title {
     font-family: "Smooch", cursive;
-    font-size: 100px;
-    display: flex;
+    font-size: 6.25rem;
     flex-direction: column;
 }
 
@@ -71,12 +68,13 @@ a:hover {
 .info {}
 
 .bio {
-    margin-left: 15vw;
-    margin-right: 15vw;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
     display: flex;
     flex-direction: row-reverse;
     background-color: transparent;
-    gap: 10px;
+    gap: 0.625rem;
 }
 
 .bio-2 {
@@ -87,14 +85,16 @@ a:hover {
     color: white;
 }
 
-.skills {}
+.skills {
+    padding-bottom: 1.563rem;
+}
 
 .skills-ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 1.25rem;
     list-style: none;
     color: white;
     font-family: 'Courier New', Courier, monospace;
@@ -105,91 +105,91 @@ a:hover {
     display: flex;
     justify-content: center;
     color: white;
-    padding-bottom: 15px;
+    padding-bottom: 1rem;
     font-family: "Smooch", cursive;
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 .skill-1 {
     border-style: solid;
     border-color: rgb(30, 27, 192);
-    border-radius: 25px;
+    border-radius: 1.563rem;
     background-color: rgb(30, 27, 192);
 }
 
 .skill-2 {
     border-style: solid;
     border-color: rgb(226, 178, 18);
-    border-radius: 25px;
+    border-radius: 1.563rem;
     background-color: rgb(226, 178, 18);
 }
 
 .skill-3 {
     border-style: solid;
     border-color: rgb(40, 127, 63);
-    border-radius: 25px;
+    border-radius: 1.563rem;
     background-color: rgb(40, 127, 63);
 }
 
 .skill-4 {
     border-style: solid;
     border-color: rgb(8, 137, 142);
-    border-radius: 25px;
+    border-radius: 1.563rem;
     background-color: rgb(8, 137, 142);
 }
 
 .skill-5 {
     border-style: solid;
     border-color: rgb(35, 15, 151);
-    border-radius: 25px;
+    border-radius: 1.563rem;
     background-color: rgb(35, 15, 151);
 }
 
 .skill-6 {
     border-style: solid;
     border-color: rgb(176, 203, 42);
-    border-radius: 25px;
+    border-radius: 1.563rem;
     background-color: rgb(176, 203, 42);
 }
 
 .skill-7 {
     border-style: solid;
     border-color: rgb(213, 144, 32);
-    border-radius: 25px;
+    border-radius: 1.563rem;
     background-color: rgb(213, 144, 32);
 }
 
 .skill-8 {
     border-style: solid;
     border-color: rgb(225, 119, 27);
-    border-radius: 25px;
+    border-radius: 1.563rem;
     background-color: rgb(225, 119, 27);
 }
 
 .skill-9 {
     border-style: solid;
     border-color: rgb(17, 209, 59);
-    border-radius: 25px;
+    border-radius: 1.563rem;
     background-color: rgb(17, 209, 59);
 }
 
 .skill-10 {
     border-style: solid;
     border-color: rgb(49, 42, 180);
-    border-radius: 25px;
+    border-radius: 1.563rem;
     background-color: rgb(49, 42, 180);
 }
 
 .weather {
     color: white;
     font-family: "Smooch", cursive;
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 .weather-app {
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
 }
 
 .form {
