@@ -41,4 +41,7 @@ Instead, 1rem = 1em = 16px */
         color: white;
         font-family: 'Courier New', Courier, monospace;
     }
+    .skills {
+        padding-bottom: 1rem;
+    }
 }
