@@ -1,23 +1,32 @@
 /* rem and em do NOT depend on html font-size in media queries!
 Instead, 1rem = 1em = 16px */
 
-@media (max-width: 30rem) {
+@media (max-width: 480px) {
+    body {
+        overflow: hidden;
+    }
+    .info {}
     .bio {
-        margin-left: auto;
-        margin-right: auto;
-        width: fit-content;
-        display: grid;
-        grid-template-columns: 1fr;
+        width: 480px;
         background-color: transparent;
-        gap: 0.625rem;
+        /* gap: 0.625rem; */
+    }
+    .bio-2 {
+        font-size: small;
+        text-align: center;
+        align-self: center;
+        font-family: 'Ubuntu Mono', monospace;
+        color: white;
+        width: 200px;
+        padding-left: 25px;
     }
     .title {
-        display: flex;
+        /* display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        align-items: center;
+        align-items: center; */
         color: white;
-        font-family: "Smooch", cursive;
+        font-family: 'Ubuntu Mono', monospace;
         font-size: 3.25rem;
         flex-direction: column;
     }
@@ -26,7 +35,7 @@ Instead, 1rem = 1em = 16px */
         justify-content: center;
         color: white;
         padding-bottom: 1rem;
-        font-family: "Smooch", cursive;
+        font-family: 'Ubuntu Mono', monospace;
         font-size: 0.9375rem;
     }
     .image {
