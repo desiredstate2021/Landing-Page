@@ -22,7 +22,7 @@ html {
 }
 
 .resume {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Ubuntu Mono', monospace;
     color: white;
     font-weight: bolder;
 }
@@ -30,7 +30,7 @@ html {
 .name {
     justify-content: flex-start;
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Ubuntu Mono', monospace;
 }
 
 .flex-container-1 {
@@ -50,7 +50,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     color: white;
-    font-family: "Smooch", cursive;
+    font-family: 'Ubuntu Mono', monospace;
     font-size: 6.25rem;
     flex-direction: column;
 }
@@ -70,24 +70,30 @@ a:hover {
     width: 31.25rem;
 }
 
-.info {}
-
-.bio {
+.info {
+    width: 500px;
+    width: 900px;
     margin-left: auto;
     margin-right: auto;
-    width: fit-content;
+}
+
+.bio {
     display: flex;
+    width: fit-content;
     flex-direction: row-reverse;
     background-color: transparent;
     gap: 0.625rem;
 }
 
 .bio-2 {
+    font-size: x-large;
     text-align: center;
     align-self: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;
+    font-family: 'Ubuntu Mono', monospace;
+    /* font-weight: bold; */
     color: white;
+    width: 375px;
+    padding-left: 25px;
 }
 
 .skills {
@@ -102,7 +108,7 @@ a:hover {
     gap: 1.25rem;
     list-style: none;
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Ubuntu Mono', monospace;
     font-weight: bolder;
 }
 
@@ -111,7 +117,7 @@ a:hover {
     justify-content: center;
     color: white;
     padding-bottom: 1rem;
-    font-family: "Smooch", cursive;
+    font-family: 'Ubuntu Mono', monospace;
     font-size: 1.875rem;
 }
 
