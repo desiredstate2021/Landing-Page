@@ -9,22 +9,16 @@ Instead, 1rem = 1em = 16px */
     .bio {
         width: 480px;
         background-color: transparent;
-        /* gap: 0.625rem; */
     }
     .bio-2 {
-        font-size: small;
+        font-size: 15px;
         text-align: center;
-        align-self: center;
         font-family: 'Ubuntu Mono', monospace;
         color: white;
         width: 200px;
-        padding-left: 25px;
+        padding-right: 20px;
     }
     .title {
-        /* display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center; */
         color: white;
         font-family: 'Ubuntu Mono', monospace;
         font-size: 3.25rem;
@@ -34,7 +28,7 @@ Instead, 1rem = 1em = 16px */
         display: flex;
         justify-content: center;
         color: white;
-        padding-bottom: 1rem;
+        padding-bottom: .6rem;
         font-family: 'Ubuntu Mono', monospace;
         font-size: 0.9375rem;
     }
@@ -48,9 +42,13 @@ Instead, 1rem = 1em = 16px */
         font-size: 1rem;
         justify-content: flex-start;
         color: white;
-        font-family: 'Courier New', Courier, monospace;
+        font-family: 'Ubuntu Mono', monospace;
     }
-    .skills {
-        padding-bottom: 1rem;
+    .skills {}
+    .under-construction {
+        font-family: 'Ubuntu Mono', monospace;
+        color: white;
+        text-align: center;
+        margin-top: 15px;
     }
 }
