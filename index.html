@@ -9,20 +9,26 @@
     <link rel="stylesheet" href="queries.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@700&family=Ubuntu+Mono:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Hi! I'm Brian</title>
 </head>
 
 <body>
     <main>
-        <div class="wrapper">
-            <nav class="nav">
-                <h1 class="name">Brian Cordisco</h1>
+        <div class="mobile-container">
+            <nav class="nav topnav">
+                <h1 class="name active">Brian Cordisco</h1>
 
                 <div class="flex-container-1">
-                    <a href="BrianCV.pdf" class="resume">Resume/CV</a> |
-                    <a href="https://www.linkedin.com/in/brian-cordisco-500250205/" class="linkedin"><img alt="Linkedin" src="/images/icons8-linkedin.svg" /></a>
-                    <a href="https://github.com/desiredstate2021" class="github"><img alt="github" src="/images/icons8-github.svg" /></a>
-                    <a href="https://twitter.com/BrianCordisco" class="twitter"><img alt="twitter" src="/images/icons8-twitter.svg" /></a>
+                    <div id="myLinks">
+                        <a href="BrianCV.pdf" class="resume">Resume/CV</a>
+                        <a href="https://www.linkedin.com/in/brian-cordisco-500250205/" class="linkedin"><img alt="Linkedin" src="/images/icons8-linkedin.svg" /></a>
+                        <a href="https://github.com/desiredstate2021" class="github"><img alt="github" src="/images/icons8-github.svg" /></a>
+                        <a href="https://twitter.com/BrianCordisco" class="twitter"><img alt="twitter" src="/images/icons8-twitter.svg" /></a>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
                 </div>
             </nav>
             <div class="title">
@@ -55,31 +61,32 @@
                 <li class="skill-1">JAVASCRIPT</li>
                 <li class="skill-2">REACT</li>
                 <li class="skill-3">HTML5</li>
-                <li class="skill-4">CSS3</li>
+                <li class="skill-4">CSS</li>
                 <li class="skill-5">NODE.JS</li>
                 <li class="skill-6">SQL</li>
                 <li class="skill-7">UX/UI</li>
                 <li class="skill-8">SEO</li>
                 <li class="skill-9">SCRUM</li>
                 <li class="skill-10">MS PROJECT</li>
+                <li class="skill-11">Git</li>
+                <li class="skill-12">Bootstrap</liclass>
             </ul>
         </div>
 
         <div class="under-construction">
             <p>This Website is Under Construction. <br> Please stay tuned!</p>
         </div>
-        <!-- <div class="weather-app">
-            <div class="weather">
-                <h2>What's the weather like in your City?</h2>
-            </div>
-            <div class="form">
-                <form action="/" method="post">
-                    <label for="cityName">City Name: </label>
-                    <input type="text" name="CityName" id="cityInputs" />
-                    <button type="submit">Go</button>
-                </form>
-            </div>
-        </div> -->
+
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+        </script>
     </main>
 
 
