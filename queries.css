@@ -1,11 +1,14 @@
     /* rem and em do NOT depend on html font-size in media queries!
 Instead, 1rem = 1em = 16px */
     
-    @media (max-width: 375px) {
-        body {
+   @media (max-width: 500px) {
+        /* body {
             overflow: hidden;
+        } */
+        .mobile-container {
+            max-width: 480px;
+            margin: auto;
         }
-        .mobile-container {}
         .topnav {
             overflow: hidden;
             position: relative;
@@ -36,11 +39,13 @@ Instead, 1rem = 1em = 16px */
         }
         .bio {
             display: flex;
+            margin-left: 25px;
         }
         .bio-2 {
             font-size: small;
             text-align: center;
             width: 160px;
+            margin-left: 25px;
             padding-bottom: 15px;
         }
         .title {
@@ -75,5 +80,20 @@ Instead, 1rem = 1em = 16px */
             color: white;
             text-align: center;
             margin-top: 15px;
+        }
+        #linkedin {
+            width: 24px;
+            height: 24px;
+        }
+        #github {
+            width: 24px;
+            height: 24px;
+        }
+        #twitter {
+            width: 24px;
+            height: 24px;
+        }
+        .flex-container-1 {
+            display: flex;
         }
     }
