@@ -76,16 +76,4 @@ Instead, 1rem = 1em = 16px */
             text-align: center;
             margin-top: 15px;
         }
-        #linkedin {
-            width: 24px;
-            height: 24px;
-        }
-        #github {
-            width: 24px;
-            height: 24px;
-        }
-        #twitter {
-            width: 24px;
-            height: 24px;
-        }
     }
