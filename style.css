@@ -23,7 +23,6 @@ html {
 .resume {
     font-family: 'Ubuntu Mono', monospace;
     color: white;
-    font-weight: bolder;
 }
 
 .name {
@@ -92,7 +91,7 @@ a:hover {
     /* font-weight: bold; */
     color: white;
     width: 375px;
-    padding-left: 15px;
+    /* padding-left: 15px; */
 }
 
 .skills {}
@@ -210,4 +209,8 @@ a:hover {
 
 .icon {
     display: none;
+}
+
+#myLinks {
+    justify-items: center;
 }
