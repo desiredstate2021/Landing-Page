@@ -1,10 +1,10 @@
     /* rem and em do NOT depend on html font-size in media queries!
 Instead, 1rem = 1em = 16px */
     
-   @media (max-width: 500px) {
-        /* body {
+    @media (max-width: 500px) {
+        body {
             overflow: hidden;
-        } */
+        }
         .mobile-container {
             max-width: 480px;
             margin: auto;
@@ -71,9 +71,8 @@ Instead, 1rem = 1em = 16px */
         }
         .name {
             font-size: 1rem;
-            justify-content: flex-start;
+            padding-top: 3px;
             color: white;
-            font-family: 'Ubuntu Mono', monospace;
         }
         .under-construction {
             font-family: 'Ubuntu Mono', monospace;
@@ -93,7 +92,11 @@ Instead, 1rem = 1em = 16px */
             width: 24px;
             height: 24px;
         }
-        .flex-container-1 {
-            display: flex;
+        .flex-container-1 {}
+        .resume {
+            font-family: 'Ubuntu Mono', monospace;
+            padding-right: 10px;
+            padding-bottom: 4px;
         }
+        .fa-bars-staggered {}
     }
